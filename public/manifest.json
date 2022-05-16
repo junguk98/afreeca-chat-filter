@@ -1,25 +1,26 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
+  "short_name": "아프리카tv 채팅 모아보기",
+  "name": "아프리카tv 채팅 모아보기",
+  "description": "보고싶은 채팅을 한번에 모아보세요!",
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "아프리카tv 채팅 모아보기"
+  },
+  "permissions": ["webNavigation", "storage"],
+  "host_permissions": ["*://play.afreecatv.com/*"],
+  "content_scripts": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "matches": ["*://play.afreecatv.com/*"],
+      "all-frames": true,
+      "css": ["./content.css"],
+      "js": ["./dist/js/content.js"]
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }

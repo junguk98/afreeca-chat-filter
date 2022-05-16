@@ -1,0 +1,13 @@
+.myBox {
+  background-color: #5858a8;
+  order: 1;
+  width: 100%;
+  height: 30%;
+  resize: vertical;
+}
+.afm_chat_area {
+  order: 3;
+  position: absolute;
+  will-change: scroll-position;
+  top: 260px;
+}
