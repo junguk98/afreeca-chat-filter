@@ -1,5 +1,8 @@
 # 아프리카 TV 채팅 모아보기
 
+<a href="https://chrome.google.com/webstore/detail/%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4tv-%EC%B1%84%ED%8C%85-%EB%AA%A8%EC%95%84%EB%B3%B4%EA%B8%B0/oenmfbheogigcgbiadciifkdoldkggen?hl=ko">chrome 웹 스토어 링크</a>
+---
+
 <div align="center">
     <h3>STACKS</h3>
     <img src="https://img.shields.io/badge/typescrit-007396?style=for-the-badge&logo=typescript&logoColor=white">
