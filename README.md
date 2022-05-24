@@ -23,6 +23,6 @@
 
 ## version 1.0.0
 
-    - 크롬 확장프로그램 심사 중
+<a href="https://github.com/kddkdkk/af-1.1.0">version 1.1.0</a>
     - 채팅창 디자인 수정 작업 진행중
       심사 완료 시 수정된 디자인과 함께 버전 업데이트 예정
